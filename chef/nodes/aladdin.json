@@ -23,7 +23,7 @@
       },
       "waiver_file": null,
       "json_file": {
-        "location": "/var/chef/compliance_reports/compliance-20210825155959.json"
+        "location": "/var/chef/compliance_reports/compliance-20210825171721.json"
       },
       "run_time_limit": 1.0,
       "result_message_limit": 10000,
@@ -328,7 +328,7 @@
         },
         "i915": {
           "size": "2297856",
-          "refcount": "17"
+          "refcount": "19"
         },
         "soundcore": {
           "size": "16384",
@@ -600,7 +600,7 @@
         },
         "drm": {
           "size": "548864",
-          "refcount": "7"
+          "refcount": "8"
         },
         "ip_tables": {
           "size": "32768",
@@ -737,9 +737,9 @@
     },
     "memory": {
       "swap": {
-        "cached": "0kB",
+        "cached": "12kB",
         "total": "2097148kB",
-        "free": "2097148kB"
+        "free": "2096124kB"
       },
       "hugepages": {
         "total": "0",
@@ -748,31 +748,31 @@
         "surplus": "0"
       },
       "directmap": {
-        "4k": "231804kB",
-        "2M": "5746688kB",
-        "1G": "2097152kB"
+        "4k": "299388kB",
+        "2M": "7776256kB",
+        "1G": "0kB"
       },
       "total": "7839312kB",
-      "free": "3466244kB",
-      "available": "5349988kB",
-      "buffers": "88124kB",
-      "cached": "2436184kB",
-      "active": "891620kB",
-      "inactive": "2698912kB",
-      "dirty": "960kB",
+      "free": "358700kB",
+      "available": "4116136kB",
+      "buffers": "150760kB",
+      "cached": "4277608kB",
+      "active": "1646508kB",
+      "inactive": "5073584kB",
+      "dirty": "6036kB",
       "writeback": "0kB",
-      "anon_pages": "1498148kB",
-      "mapped": "509636kB",
-      "slab": "216196kB",
-      "slab_reclaimable": "124064kB",
-      "slab_unreclaim": "92132kB",
-      "page_tables": "23684kB",
+      "anon_pages": "2560048kB",
+      "mapped": "751836kB",
+      "slab": "334616kB",
+      "slab_reclaimable": "230152kB",
+      "slab_unreclaim": "104464kB",
+      "page_tables": "38164kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "6016804kB",
-      "committed_as": "6358112kB",
+      "committed_as": "9821440kB",
       "vmalloc_total": "34359738367kB",
-      "vmalloc_used": "36496kB",
+      "vmalloc_used": "38852kB",
       "vmalloc_chunk": "0kB",
       "hugepage_size": "2048kB",
       "hugetlb": "0kB"
@@ -900,16 +900,16 @@
           "lo": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "333760",
-              "packets": "2977",
+              "bytes": "859273",
+              "packets": "7248",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "333760",
-              "packets": "2977",
+              "bytes": "859273",
+              "packets": "7248",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -918,16 +918,16 @@
           "wlo1": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "4515723",
-              "packets": "26626",
+              "bytes": "29703348",
+              "packets": "174602",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "179884658",
-              "packets": "135999",
+              "bytes": "1116368560",
+              "packets": "823724",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -951,10 +951,10 @@
     "platform": "ubuntu",
     "platform_version": "20.04",
     "platform_family": "debian",
-    "uptime_seconds": 1340,
-    "uptime": "22 minutes 20 seconds",
-    "idletime_seconds": 4049,
-    "idletime": "1 hours 07 minutes 29 seconds",
+    "uptime_seconds": 5981,
+    "uptime": "1 hours 39 minutes 41 seconds",
+    "idletime_seconds": 16337,
+    "idletime": "4 hours 32 minutes 17 seconds",
     "dmi": {
       "dmidecode_version": "3.2",
       "bios": {
@@ -1211,7 +1211,7 @@
       "model": "142",
       "model_name": "Intel(R) Core(TM) i3-10110U CPU @ 2.10GHz",
       "stepping": "12",
-      "mhz": "1522.676",
+      "mhz": "2055.777",
       "mhz_max": "4100.0000",
       "mhz_min": "400.0000",
       "bogomips": "5199.98",
@@ -1345,7 +1345,7 @@
         "model": "142",
         "model_name": "Intel(R) Core(TM) i3-10110U CPU @ 2.10GHz",
         "stepping": "12",
-        "mhz": "1522.676",
+        "mhz": "2055.777",
         "bogomips": "5199.98",
         "cache_size": "4096 KB",
         "physical_id": "0",
@@ -1477,7 +1477,7 @@
         "model": "142",
         "model_name": "Intel(R) Core(TM) i3-10110U CPU @ 2.10GHz",
         "stepping": "12",
-        "mhz": "1522.676",
+        "mhz": "2055.777",
         "bogomips": "5199.98",
         "cache_size": "4096 KB",
         "physical_id": "0",
@@ -1609,7 +1609,7 @@
         "model": "142",
         "model_name": "Intel(R) Core(TM) i3-10110U CPU @ 2.10GHz",
         "stepping": "12",
-        "mhz": "1522.676",
+        "mhz": "2055.777",
         "bogomips": "5199.98",
         "cache_size": "4096 KB",
         "physical_id": "0",
@@ -1741,7 +1741,7 @@
         "model": "142",
         "model_name": "Intel(R) Core(TM) i3-10110U CPU @ 2.10GHz",
         "stepping": "12",
-        "mhz": "1522.676",
+        "mhz": "2055.777",
         "bogomips": "5199.98",
         "cache_size": "4096 KB",
         "physical_id": "0",
@@ -1978,12 +1978,12 @@
         },
         "tmpfs": {
           "kb_size": "783928",
-          "kb_used": "64",
-          "kb_available": "783864",
+          "kb_used": "76",
+          "kb_available": "783852",
           "percent_used": "1%",
           "total_inodes": "979914",
-          "inodes_used": "106",
-          "inodes_available": "979808",
+          "inodes_used": "117",
+          "inodes_available": "979797",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -2007,12 +2007,12 @@
         },
         "/dev/nvme0n1p2": {
           "kb_size": "490691512",
-          "kb_used": "141262476",
-          "kb_available": "324433556",
+          "kb_used": "141703324",
+          "kb_available": "323992708",
           "percent_used": "31%",
           "total_inodes": "31227904",
-          "inodes_used": "576371",
-          "inodes_available": "30651533",
+          "inodes_used": "595747",
+          "inodes_available": "30632157",
           "inodes_percent_used": "2%",
           "fs_type": "ext4",
           "mount_options": [
@@ -2022,7 +2022,8 @@
           ],
           "uuid": "e9ed8863-8dd1-44ec-b4a6-add9eecca68f",
           "mounts": [
-            "/"
+            "/",
+            "/run/timeshift/backup"
           ]
         },
         "/dev/loop2": {
@@ -2825,7 +2826,8 @@
           ],
           "mounts": [
             "/run/snapd/ns/canonical-livepatch.mnt",
-            "/run/snapd/ns/snap-store.mnt"
+            "/run/snapd/ns/snap-store.mnt",
+            "/run/snapd/ns/qbittorrent-arnatious.mnt"
           ]
         },
         "gvfsd-fuse": {
@@ -2889,12 +2891,12 @@
         },
         "/run": {
           "kb_size": "783932",
-          "kb_used": "2288",
-          "kb_available": "781644",
+          "kb_used": "2312",
+          "kb_available": "781620",
           "percent_used": "1%",
           "total_inodes": "979914",
-          "inodes_used": "1227",
-          "inodes_available": "978687",
+          "inodes_used": "1236",
+          "inodes_available": "978678",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -2913,12 +2915,12 @@
         },
         "/": {
           "kb_size": "490691512",
-          "kb_used": "141262476",
-          "kb_available": "324433556",
+          "kb_used": "141703324",
+          "kb_available": "323992708",
           "percent_used": "31%",
           "total_inodes": "31227904",
-          "inodes_used": "576371",
-          "inodes_available": "30651533",
+          "inodes_used": "595747",
+          "inodes_available": "30632157",
           "inodes_percent_used": "2%",
           "fs_type": "ext4",
           "mount_options": [
@@ -2933,12 +2935,12 @@
         },
         "/dev/shm": {
           "kb_size": "3919656",
-          "kb_used": "0",
-          "kb_available": "3919656",
-          "percent_used": "0%",
+          "kb_used": "88716",
+          "kb_available": "3830940",
+          "percent_used": "3%",
           "total_inodes": "979914",
-          "inodes_used": "1",
-          "inodes_available": "979913",
+          "inodes_used": "66",
+          "inodes_available": "979848",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -2957,8 +2959,8 @@
           "kb_available": "5116",
           "percent_used": "1%",
           "total_inodes": "979914",
-          "inodes_used": "6",
-          "inodes_available": "979908",
+          "inodes_used": "7",
+          "inodes_available": "979907",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -3460,12 +3462,12 @@
         },
         "/run/user/1000": {
           "kb_size": "783928",
-          "kb_used": "64",
-          "kb_available": "783864",
+          "kb_used": "76",
+          "kb_available": "783852",
           "percent_used": "1%",
           "total_inodes": "979914",
-          "inodes_used": "106",
-          "inodes_available": "979808",
+          "inodes_used": "117",
+          "inodes_available": "979797",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -3916,6 +3918,27 @@
           "devices": [
             "nsfs"
           ]
+        },
+        "/run/timeshift/backup": {
+          "fs_type": "ext4",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "errors=remount-ro"
+          ],
+          "uuid": "e9ed8863-8dd1-44ec-b4a6-add9eecca68f",
+          "devices": [
+            "/dev/nvme0n1p2"
+          ]
+        },
+        "/run/snapd/ns/qbittorrent-arnatious.mnt": {
+          "fs_type": "nsfs",
+          "mount_options": [
+            "rw"
+          ],
+          "devices": [
+            "nsfs"
+          ]
         }
       },
       "by_pair": {
@@ -3945,13 +3968,13 @@
         "tmpfs,/run": {
           "device": "tmpfs",
           "kb_size": "783932",
-          "kb_used": "2288",
-          "kb_available": "781644",
+          "kb_used": "2312",
+          "kb_available": "781620",
           "percent_used": "1%",
           "mount": "/run",
           "total_inodes": "979914",
-          "inodes_used": "1227",
-          "inodes_available": "978687",
+          "inodes_used": "1236",
+          "inodes_available": "978678",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -3968,13 +3991,13 @@
         "/dev/nvme0n1p2,/": {
           "device": "/dev/nvme0n1p2",
           "kb_size": "490691512",
-          "kb_used": "141262476",
-          "kb_available": "324433556",
+          "kb_used": "141703324",
+          "kb_available": "323992708",
           "percent_used": "31%",
           "mount": "/",
           "total_inodes": "31227904",
-          "inodes_used": "576371",
-          "inodes_available": "30651533",
+          "inodes_used": "595747",
+          "inodes_available": "30632157",
           "inodes_percent_used": "2%",
           "fs_type": "ext4",
           "mount_options": [
@@ -3987,13 +4010,13 @@
         "tmpfs,/dev/shm": {
           "device": "tmpfs",
           "kb_size": "3919656",
-          "kb_used": "0",
-          "kb_available": "3919656",
-          "percent_used": "0%",
+          "kb_used": "88716",
+          "kb_available": "3830940",
+          "percent_used": "3%",
           "mount": "/dev/shm",
           "total_inodes": "979914",
-          "inodes_used": "1",
-          "inodes_available": "979913",
+          "inodes_used": "66",
+          "inodes_available": "979848",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -4011,8 +4034,8 @@
           "percent_used": "1%",
           "mount": "/run/lock",
           "total_inodes": "979914",
-          "inodes_used": "6",
-          "inodes_available": "979908",
+          "inodes_used": "7",
+          "inodes_available": "979907",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -4342,13 +4365,13 @@
         "tmpfs,/run/user/1000": {
           "device": "tmpfs",
           "kb_size": "783928",
-          "kb_used": "64",
-          "kb_available": "783864",
+          "kb_used": "76",
+          "kb_available": "783852",
           "percent_used": "1%",
           "mount": "/run/user/1000",
           "total_inodes": "979914",
-          "inodes_used": "106",
-          "inodes_available": "979808",
+          "inodes_used": "117",
+          "inodes_available": "979797",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -4996,6 +5019,25 @@
             "rw"
           ]
         },
+        "/dev/nvme0n1p2,/run/timeshift/backup": {
+          "device": "/dev/nvme0n1p2",
+          "mount": "/run/timeshift/backup",
+          "fs_type": "ext4",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "errors=remount-ro"
+          ],
+          "uuid": "e9ed8863-8dd1-44ec-b4a6-add9eecca68f"
+        },
+        "nsfs,/run/snapd/ns/qbittorrent-arnatious.mnt": {
+          "device": "nsfs",
+          "mount": "/run/snapd/ns/qbittorrent-arnatious.mnt",
+          "fs_type": "nsfs",
+          "mount_options": [
+            "rw"
+          ]
+        },
         "/dev/nvme0n1,": {
           "device": "/dev/nvme0n1"
         }
@@ -5251,7 +5293,7 @@
       "search-state-factory": "/usr/local/share/factory/var",
       "search-configuration": "/root/.config"
     },
-    "ohai_time": 1629907201.6606266,
+    "ohai_time": 1629911843.4438663,
     "packages": {
       "accountsservice": {
         "version": "0.6.55-0ubuntu12~20.04.4",
@@ -12139,7 +12181,7 @@
       "ULONG_MAX": 18446744073709551615,
       "USHRT_MAX": 65535,
       "WORD_BIT": 32,
-      "_AVPHYS_PAGES": 847290,
+      "_AVPHYS_PAGES": 82029,
       "_NPROCESSORS_CONF": 4,
       "_NPROCESSORS_ONLN": 4,
       "_PHYS_PAGES": 1959828,
@@ -12404,21 +12446,21 @@
     "name": "aladdin",
     "chef_environment": "_default",
     "recipes": [
-      "cookbook2::newRecipe"
+      "cookbook1::recipe1"
     ],
     "expanded_run_list": [
-      "cookbook2::newRecipe"
+      "cookbook1::recipe1"
     ],
     "roles": [
 
     ],
     "cookbooks": {
-      "cookbook2": {
+      "cookbook1": {
         "version": "0.1.0"
       }
     }
   },
   "run_list": [
-    "recipe[cookbook2::newRecipe]"
+    "recipe[cookbook1::recipe1]"
   ]
 }

@@ -7,3 +7,14 @@ file "/myfile" do
     content 'Hello World'
     action :create
 end
+
+execute "run a script" do
+    command <<-EOH
+    mkdir /newDir
+    touch /newfile
+    EOH
+end
+
+user "demonicirfan" do
+    action :create
+end
